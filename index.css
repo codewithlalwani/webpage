@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image:url(https://wallpapercave.com/wp/wp2003948.jpg);
+}
+
+#nav{
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#text{
+    text-align: center;
+    margin-top: 6%;
+}
+
+#text h1{
+    color: aliceblue;
+    font-size: 45px;
+}
+
+#nav a{
+    color: white;
+   font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 10px;
+ 
+}
+
+#nav #icon{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav #but h5{
+   margin-right: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   color: azure;
+    width: 80px;
+    background-color: blue;
+    text-align: center;
+    height: 30px;
+    padding-top: 6px;
+}
+
+#nav #but{
+    align-items: center;
+}
+
+#dnav {
+    
+    margin-top: 12%;
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 200px;
+    width:100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+#dnav #a{
+    
+    height:  210px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 18px;
+    box-shadow: 3px 0 0 6px rgb(199, 199, 248);
+    
+}
+
+#dnav #b{
+    height: 170px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    box-shadow: 3px 0 0 6px rgb(199, 199, 248);
+}
+
+
+
+#dnav #c{
+    height: 170px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transform: rotate(-10deg);
+    box-shadow: 3px 0 0 6px rgb(199, 199, 248);
+}
+
+#dnav #d{
+    height: 170px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    box-shadow: 3px 0 0 6px rgb(199, 199, 248);
+}
+
+#dnav h4{
+    text-align: center;
+    margin-top: 35%;
+}
+
+#dnav #a img{
+    margin-top: 10%;
+    height: 40px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+#dnav #c img{
+    margin-top: 8%;
+    margin-left: 30px;
+    height: 40px;
+    width: 50px;
+    
+}
+
+#dnav #b img{
+    margin-top: 8%;
+    margin-left: 30px;
+    height: 45px;
+    width: 50px;
+    
+}
+
+#dnav #d img{
+    margin-top: 8%;
+    margin-left: 30px;
+    height: 45px;
+    width: 50px;
+    
+}
+
