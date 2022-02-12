@@ -15,7 +15,9 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    background-image:url(https://wallpapercave.com/wp/wp2003948.jpg);
+    background :"ye.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #nav{
@@ -31,15 +33,16 @@ html,body{
 #text{
     text-align: center;
     margin-top: 6%;
+    
 }
 
 #text h1{
-    color: aliceblue;
+    color: rgb(131, 82, 247);
     font-size: 45px;
 }
 
 #nav a{
-    color: white;
+    color: rgb(44, 41, 206);
    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-weight: lighter;
@@ -51,7 +54,7 @@ html,body{
     
     margin-left: 100px;
     margin-right: 100px;
-    color: aliceblue;
+    color: rgb(2, 30, 54);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
